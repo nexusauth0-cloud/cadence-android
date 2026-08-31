@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+build/
+
+# Kotlin
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local machine config (sdk.dir etc.) — never commit per-workstation paths
+local.properties
+
+# Security: signing material and generated secrets must never be committed
+*.jks
+*.keystore
+*.jks.bak
+keystore.properties
+signing.properties
+secrets.properties
+.env
+*.env
+*.p12
+*.pfx
+*.key
+*.pem
