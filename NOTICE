@@ -1,0 +1,45 @@
+Cadence
+Copyright (C) 2026 The Cadence contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+------------------------------------------------------------------------
+Third-party notices
+------------------------------------------------------------------------
+
+Cadence builds on several open-source libraries. Their respective
+licenses and copyright holders are listed below. Full license texts ship
+with each dependency and are not reproduced here.
+
+The following library is distributed with this program and is subject
+to the GNU General Public License v3.0 (GPL-3.0), which is compatible
+with the GPL-3.0 terms of Cadence itself:
+
+  * NewPipe Extractor v0.26.5
+    Copyright (C) The NewPipe Extractor contributors
+    https://github.com/TeamNewPipe/NewPipeExtractor
+    https://www.gnu.org/licenses/gpl-3.0.html
+
+The following libraries are distributed with this program under
+permissive licenses that are compatible with GPL-3.0:
+
+  * OkHttp (Apache-2.0) — Copyright The OkHttp contributors, Square, Inc.
+  * jsoup (MIT) — Copyright Jonathan Hedley
+  * nanojson (MIT) — Copyright Edmund Wagner
+  * protobuf (BSD-3-Clause) — Copyright Google LLC
+  * Rhino / rhino-engine (MPL-2.0) — Copyright The Mozilla Foundation contributors
+
+Additional Java/Kotlin, AndroidX, Material (Compose), Media3, Room,
+WorkManager, and other build/runtime dependencies are distributed under
+their own licenses as published by their respective copyright holders.

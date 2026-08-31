@@ -1,0 +1,33 @@
+version: 2
+updates:
+  # Keep GitHub Actions current. Low noise; security patches are the priority.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      github-actions:
+        patterns: ["*"]
+
+  # Keep Gradle / JVM dependencies current using the version catalog.
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      # Group minor/patch updates from the same ecosystem to reduce noise.
+      compose:
+        patterns: ["androidx.compose*", "*compose*"]
+      coroutines:
+        patterns: ["org.jetbrains.kotlinx*"]
+      room:
+        patterns: ["androidx.room*"]
+      media3:
+        patterns: ["androidx.media3*"]
+    ignore:
+      # NewPipe Extractor is pinned for a reason (LICENSE_DECISION.md); review
+      # upgrades deliberately rather than via automated bumps.
+      - dependency-name: "com.github.teamnewpipe:NewPipeExtractor"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]

@@ -1,7 +1,7 @@
 package com.cadence.core.domain.update
 
-/** The currently-known app version at build time. */
-const val CURRENT_APP_VERSION: String = "1.0.0"
+/** The currently-known app version at build time. Mirrors `versionName` in `:app`. */
+const val CURRENT_APP_VERSION: String = "0.1.0"
 
 /** Allow-listed https store host for update links (no arbitrary APK URLs). */
 const val UPDATE_STORE_HOST: String = "play.google.com"

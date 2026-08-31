@@ -32,3 +32,8 @@ secrets.properties
 *.pfx
 *.key
 *.pem
+
+# Temporary provider downloads / recorded dumps (accidental artifacts)
+*.dump
+*.rec
+*.har
