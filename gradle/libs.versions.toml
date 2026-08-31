@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.2.0"
+kotlin = "2.4.10"
 agp = "8.8.1"
 coroutines = "1.10.2"
 serializationJson = "1.9.0"
@@ -14,11 +14,11 @@ jna = "5.16.0"
 # Compose (Phase 4B :app). Pinned to the 1.9 stable line + BOM 2025.09.01 for
 # compileSdk 35 / AGP 8.8.x compatibility (Compose 1.10 needs compileSdk 36,
 # 1.12 needs AGP 9.2 + compileSdk 37). Compose compiler plugin matches Kotlin.
-composeBom = "2025.09.01"
+composeBom = "2026.08.00"
 composeMaterial3 = "1.4.0"
 activityCompose = "1.10.1"
 lifecycle = "2.9.4"
-navigationCompose = "2.9.8"
+navigationCompose = "2.10.0"
 coreKtx = "1.16.0"
 
 # NewPipe Extractor (Phase 5A real provider). GPL-3.0, adapter-isolated to
