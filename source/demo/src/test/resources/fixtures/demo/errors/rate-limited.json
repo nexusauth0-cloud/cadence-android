@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "scenario": "errors.rate-limited",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 429, "headers": { "retry-after": "60" } },
+  "error": { "type": "rate_limited", "retryAfterSeconds": 60 }
+}

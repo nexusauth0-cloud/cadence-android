@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "scenario": "malformed.truncated-json",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "bodyRaw": "{ \"results\": [ { \"id\": \"x\", \"titl"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scenario": "resolve.happy.alpha-track.rich-metadata",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "body": {
+    "stream_url": "https://fixture.demo/stream/alpha-track?sig=tok",
+    "expires_in_seconds": 300,
+    "headers": { "X-Demo-Mode": "fixture" },
+    "renewal_base64": "cmVuZXc6YWxwaGEtdHJhY2s=",
+    "rendition_label": "demo-medium",
+    "metadata": {
+      "container": "mp4",
+      "codecs": ["mp4a.40.2"],
+      "bitrate_kbps": 192,
+      "sample_rate_hz": 44100,
+      "loudness_db": -7.2,
+      "perceptual_loudness_db": -6.8,
+      "size_bytes": 5400000
+    }
+  }
+}

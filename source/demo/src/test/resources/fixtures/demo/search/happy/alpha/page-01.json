@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "scenario": "search.happy.alpha.page-01",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "body": {
+    "results": [
+      {
+        "id": "alpha-track",
+        "title": "Alpha Anthem",
+        "artist": "Beta Band",
+        "duration_ms": 210000,
+        "year": 2026,
+        "flags": ["EXPLICIT"],
+        "artwork": [ { "url": "https://fixture.demo/art/alpha.jpg", "w": 640, "h": 640 } ]
+      }
+    ],
+    "next": 2
+  }
+}

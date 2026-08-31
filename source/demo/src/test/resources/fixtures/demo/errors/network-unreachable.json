@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "scenario": "errors.network-unreachable",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 0, "headers": {} },
+  "error": { "type": "network_unreachable" }
+}

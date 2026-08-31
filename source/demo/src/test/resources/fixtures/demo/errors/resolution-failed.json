@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "scenario": "errors.resolution-failed",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 503, "headers": {} }
+}

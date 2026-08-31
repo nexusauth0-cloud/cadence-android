@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "scenario": "malformed.missing-required-field",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "body": {
+    "results": [ { "id": "x" } ]
+  }
+}

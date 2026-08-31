@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "scenario": "errors.region-locked",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 451, "headers": {} },
+  "error": { "type": "region_locked" }
+}

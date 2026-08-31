@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "scenario": "resolve.expired.alpha-track",
+  "capturedAt": "2025-01-01T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "body": {
+    "stream_url": "https://fixture.demo/stream/alpha-track?sig=stale",
+    "expires_in_seconds": -30,
+    "renewal_base64": "cmVuZXc6YWxwaGEtdHJhY2s="
+  }
+}

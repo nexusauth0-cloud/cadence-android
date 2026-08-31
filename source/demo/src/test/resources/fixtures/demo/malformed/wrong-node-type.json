@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "scenario": "malformed.wrong-node-type",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "body": {
+    "results": "not-an-array"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "scenario": "errors.auth-required",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 401, "headers": {} },
+  "error": { "type": "auth_required" }
+}

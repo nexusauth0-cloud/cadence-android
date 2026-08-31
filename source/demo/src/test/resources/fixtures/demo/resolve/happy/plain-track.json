@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "scenario": "resolve.happy.plain-track.metadata-absent",
+  "capturedAt": "2026-08-26T00:00:00Z",
+  "transport": { "status": 200, "headers": { "content-type": "application/json" } },
+  "body": {
+    "stream_url": "https://fixture.demo/stream/plain-track"
+  }
+}
