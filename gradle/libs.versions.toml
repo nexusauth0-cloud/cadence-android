@@ -24,7 +24,7 @@ coreKtx = "1.16.0"
 # NewPipe Extractor (Phase 5A real provider). GPL-3.0, adapter-isolated to
 # :source:ytmusic per LICENSE_DECISION.md. Requires desugaring for minSdk <33.
 newpipe = "v0.26.5"
-okhttp = "4.12.0"
+okhttp = "5.5.0"
 
 [libraries]
 coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
