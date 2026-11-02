@@ -37,7 +37,7 @@ dependencies {
     testImplementation(libs.coroutines.test)
     testImplementation(libs.robolectric)
     testImplementation(libs.junit.jupiter.api)
-    testImplementation("io.mockk:mockk:1.13.13")
+    testImplementation("io.mockk:mockk:1.14.11")
     testRuntimeOnly(libs.junit.jupiter.engine)
 
     androidTestImplementation(project(":core:testing"))
